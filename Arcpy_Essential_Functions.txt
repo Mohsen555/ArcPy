@@ -1,0 +1,39 @@
+1- Copy Features
+
+arcpy.management.CopyFeatures()
+
+2- Get Count
+
+arcpy.management.GetCount()
+
+3- Select
+
+arcpy.analysis.Select()
+
+4- Set Environment Variable for overwrite
+
+arcpy.env.overwriteOutput = True
+
+5- Set Environment Variable for workspace
+
+arcpy.env.workspace = r"path\to\your\workspace"
+
+6- Create File Geodatabase
+
+arcpy.management.CreateFileGDB(workspace, gdb_name)
+
+7- Get the Input Parameters
+
+arcpy.GetParameterAsText()
+
+8- Add Informative Messages to the Tool's Messages
+
+arcpy.AddMessage()
+
+9- Calculate Summary Statistics
+
+arcpy.analysis.Statistics()
+
+10- Sort the Records in a Table
+
+arcpy.management.Sort()

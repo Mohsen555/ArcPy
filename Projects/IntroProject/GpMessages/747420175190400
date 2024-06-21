@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Thursday, June 20, 2024 6:58:45 PM</msg><msg code="0" type="1">Executing (Calculate Value): CalculateValue random_buffer_size(4,8) "def random_buffer_size(min,max):
+    from random import randint
+    randInt = randint(min,max)
+    buffer_size = randInt * 100
+    return "{0} Kilometers".format(buffer_size)" "Linear Unit"</msg><msg code="0" type="2">Start Time: Thursday, June 20, 2024 6:58:45 PM</msg><msg code="0" type="0">Value = 500 Kilometers</msg><msg code="0" type="3">Succeeded at Thursday, June 20, 2024 6:58:45 PM (Elapsed Time: 0.00 seconds)</msg><msg code="0" type="1">Executing (Buffer): Buffer Places E:\LPA\Data\Sample.gdb\Places_Buffer "500 Kilometers" Full Round "No Dissolve" # Planar</msg><msg code="0" type="2">Start Time: Thursday, June 20, 2024 6:58:45 PM</msg><msg code="0" type="3">Succeeded at Thursday, June 20, 2024 6:58:49 PM (Elapsed Time: 4.49 seconds)</msg><msg code="0" type="3">Succeeded at Thursday, June 20, 2024 6:58:49 PM (Elapsed Time: 4.61 seconds)</msg></messages>
